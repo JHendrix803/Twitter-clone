@@ -10,9 +10,9 @@
 
   
   <div class="tweet_post">
-    <div class="logo">
+    <!-- <div class="logo">
       <img src="{% static 'img/sample-icon.jpg' %}"/>
-    </div>
+    </div> -->
 
     <div class="input_area">
       <form action="/" method="POST" enctype="multipart/form-data">
@@ -54,12 +54,14 @@
           {% if post.image.url %}
         <img src="{{ post.image.url }}" alt="" />
         {% endif %}
-        </div>
-
+        <br>
         <div class="like_heart">
-          <a href="/like/{{ post.id }}"><img src="{% static 'img/icon-heart-gray.svg' %}" /></a>
+          <a href="/like/{{ post.id }}"><img src="{% static 'img/icon-heart-gray.svg' %}" style="width: 30px;" /></a>
           {{ post.likecount }}
         </div>
+        </div>
+
+        
       </li>
      
       {% endfor %}

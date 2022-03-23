@@ -48,6 +48,7 @@ form {
 }
 
 .tweet_post {
+  display: flex;
   padding: 20px 40px;
   border: 1px solid #ccc;
 }
@@ -147,6 +148,7 @@ Edit Post
   content: center;
   padding: 10px;
   margin-left: 10px;
+  text-decoration: none;
 }
 
 /*
@@ -224,21 +226,21 @@ Edit Post
   color: gray;
   display: inline-block;
 }
-
+/* 
 .main .posts .like_heart {
   width: 25px;
   cursor: pointer;
   position: absolute;
   bottom: 30px;
   left: 25px;
-}
-.main .posts .like_heart img {
+} */
+/* .main .posts .like_heart img {
   width: 25px;
 }
 .main .posts .like_heart a {
   position: relative;
   left: -8px;
-}
+} */
 
 @media screen and (max-width: 500px) {
   .posts li .name_body .name {
