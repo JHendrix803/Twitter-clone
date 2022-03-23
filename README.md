@@ -6,6 +6,8 @@ To make the project simple, we do not have a sign/login function.
 So there are not user accounts and follow function. You can challenge after you finish the course.
 ```
 Check out [LIVE Twitter clone DEMO](https://twitter-clone-jh.herokuapp.com/) here!!
+
+
 ![TwitterCloneScreenshot](https://user-images.githubusercontent.com/100320578/159770418-413bea2e-225d-419b-8d0e-2426f7b647cb.PNG)
 
 ## Tech used
